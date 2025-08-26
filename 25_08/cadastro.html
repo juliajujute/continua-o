@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro</title>
+</head>
+
+<script>
+
+function cadastrar1(){
+    const nome = document.getElementById ('nome').value
+
+    console.log(nome)
+    resultado1.innerHTML= nome
+
+}
+
+
+function cadastrar2(){
+    const idade = document.getElementById ('idade').value
+
+    console.log(idade)
+    resultado2.innerHTML= idade
+
+}
+
+
+function cadastrar3(){
+    const email = document.getElementById ('email').value
+
+    console.log(email)
+    resultado3.innerHTML= email
+
+}
+
+function cadastrar4(){
+     const rg = document.getElementById('rg').value
+
+     console.log(rg)
+     resultado4.innerHTML
+
+
+}    
+
+</script>
+<body>
+
+    Nome <input type="text" id="nome" /> 
+    Seu nome é: <span id="resultado1"></span> 
+   <br><br>
+    
+    
+
+    Idade <input type="text" id="idade" />
+    Sua idade é: <span id="resultado2"></span>
+    <br><br>
+    
+
+    Email <input type="text" id="email" />
+    Seu email é:
+    <span id="resultado3"></span>
+    <br><br>
+
+    
+    RG <input type="text" id="rg" />
+    Seu RG é:
+    <span id="resultado4"></span>
+    <br><br>
+
+    
+    
+
+   <input type="button" onclick="cadastrar1() + cadastrar2() + cadastrar3() + cadastrar4()" value="enviar">
+
+
+
+
+</body>
+</html>
